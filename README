@@ -1,0 +1,12 @@
+Authors 
+Jerin Puthuparampil and Rahi Kalantari
+McMaster University
+
+
+Use function locOctm(filename,row_div,col_div,u,d).
+Use imshow() to display image.
+row_div is the number of row divisions
+col_div is the number of column divisions
+u,d are parameters for OCTM (We find that u = 2 and d = 15 work well)
+Use locOctm(filename,1,1,u,d) for global OCTM
+use row_div >= 2 and col_div >= 2 for localized OCTM to be applied.
